@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Active Projects Index",
+    "version": "v1",
+    "compiled": "October 2025"
+  },
+  "categories": [
+    {
+      "id": "core-systems",
+      "name": "Core / Systems",
+      "icon": "🧠",
+      "projects": [
+        {
+          "name": "Signal Stack – Ingest",
+          "description": "Data ingestion pipeline for Signals / Street Clothes Protocol",
+          "stack": ["Python", "Supabase"],
+          "status": "Review ingestion routines and folder structure; plan daily automated runs"
+        },
+        {
+          "name": "StarDeck OS",
+          "description": "Core dashboard + OS layer for your projects and missions",
+          "stack": ["Node/Express", "React", "Heroku"],
+          "status": "Define next mission (Mission 006); unify front-end theme and logs"
+        },
+        {
+          "name": "Ryan-Fox.com",
+          "description": "Personal site + identity layer",
+          "stack": ["React", "Vercel"],
+          "status": "Audit content, update bio and link tree"
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee Projects",
+      "icon": "☕",
+      "projects": [
+        {
+          "name": "Coffee Buyer",
+          "description": "Tracks green coffee purchases and inventory",
+          "stack": ["Python", "Supabase"],
+          "status": "Connect to roast logs, build price tracking"
+        },
+        {
+          "name": "Coffee Blender",
+          "description": "Recipe/ratio calculator for custom blends",
+          "stack": ["React", "Streamlit"],
+          "status": "Add flavor wheel and saved blend presets"
+        },
+        {
+          "name": "Coffee Label Maker",
+          "description": "Automates 4x6\" label generation",
+          "stack": ["Node", "Python (PDFGen)"],
+          "status": "Connect to Coffee Blender outputs for automatic label export"
+        }
+      ]
+    },
+    {
+      "id": "client-utility",
+      "name": "Client / Utility Apps",
+      "icon": "🍎",
+      "projects": [
+        {
+          "name": "Ed's Produce – Vendor Tickets",
+          "description": "OCR-based invoice/ticket processing app",
+          "stack": ["Node/Express", "Mongo"],
+          "status": "Add subscription mode + dashboard export"
+        },
+        {
+          "name": "iAqualink – Pool App",
+          "description": "Local dashboard / pool monitor",
+          "stack": ["Python", "Flask"],
+          "status": "Add Raspberry Pi display integration"
+        },
+        {
+          "name": "SolSeeker",
+          "description": "QR code / solar-themed generator app",
+          "stack": ["React", "Node"],
+          "status": "Add shareable QR export and analytics"
+        }
+      ]
+    },
+    {
+      "id": "mira-series",
+      "name": "MIRA Series",
+      "icon": "🌦️",
+      "projects": [
+        {
+          "name": "MIRA-94 Weather App",
+          "description": "Displays live backyard weather",
+          "stack": ["React", "Raspberry Pi"],
+          "status": "Add real-time API calls and visualization"
+        },
+        {
+          "name": "MIRA-94 Timelapse App",
+          "description": "Captures daily sky timelapses",
+          "stack": ["Python (cron + image pipeline)"],
+          "status": "Add timestamp overlay and auto upload"
+        },
+        {
+          "name": "MIRA Backend – Image Management",
+          "description": "Handles file storage and naming for MIRA apps",
+          "stack": ["Node", "Supabase"],
+          "status": "Optimize image pipeline and deduping"
+        }
+      ]
+    },
+    {
+      "id": "devices-creative",
+      "name": "Devices & Creative Tools",
+      "icon": "🖼️",
+      "projects": [
+        {
+          "name": "MP-85 – Digital Photo Frame",
+          "description": "PyPortal slideshow gift system",
+          "stack": ["CircuitPython", "Heroku backend"],
+          "status": "Expand backend content scheduling"
+        },
+        {
+          "name": "Pastlight Theater (Movies with Dad)",
+          "description": "Movie collection web app",
+          "stack": ["React", "Supabase"],
+          "status": "Finish Add Movie form, deploy to Heroku"
+        }
+      ]
+    },
+    {
+      "id": "youtube-tools",
+      "name": "YouTube Tools",
+      "icon": "📺",
+      "projects": [
+        {
+          "name": "YouTube Ingest",
+          "description": "Pulls playlist videos into Airtable",
+          "stack": ["Make.com", "Python"],
+          "status": "Automate weekly"
+        },
+        {
+          "name": "YouTube Transcript Scraper",
+          "description": "Converts video transcripts to JSON",
+          "stack": ["Python"],
+          "status": "Prepare for LLM ingestion"
+        },
+        {
+          "name": "YouTube Downloader",
+          "description": "Archives videos for local use",
+          "stack": ["Node", "Python"],
+          "status": "Integrate with Transcript Scraper"
+        }
+      ]
+    }
+  ],
+  "nextSteps": [
+    "Add StarDeck sub-projects (e.g., Cyberdeck, Mission Logs)",
+    "Add Based Beans under Coffee section",
+    "Add Rate My Plate and The Grid (archived / legacy)",
+    "Tag each project with \"Priority: High / Medium / Low\"",
+    "Add GitHub links once repo sync is ready"
+  ]
+}
